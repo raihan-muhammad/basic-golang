@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	Custom "basic-golang/helper"
+	"fmt"
+)
 
 
 type biodata struct {
@@ -35,4 +38,6 @@ func main(){
 		"classes": "100",
 	}
 	fmt.Println(school["classes"])
+	
+	fmt.Println(Custom.SayHi())
 }
